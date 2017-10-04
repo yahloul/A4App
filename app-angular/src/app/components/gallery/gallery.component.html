@@ -1,0 +1,8 @@
+<div class="grid-container">
+    <h1>Gallery Photos</h1>
+    <div class="row">
+        <div class="large-2 columns" *ngFor="let photo of photos">
+            <img class="thumbnail" src="{{photo.url}}" alt="{{photo.title}}">
+        </div>
+    </div>
+</div>
